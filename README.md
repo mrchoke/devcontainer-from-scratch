@@ -75,7 +75,7 @@ sudo pip install god
 
 ```bash
 docker ps
-docker down your-devcontainer
+docker stop your-devcontainer
 docker rm your-devcontainer
 ```
 
