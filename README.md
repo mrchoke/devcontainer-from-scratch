@@ -1,5 +1,7 @@
 # DevContainer From Scratch
 
+![Dev in Container](image/in-devcontainer.jpg)
+
 ## Requirement for this project
 
 - docker
@@ -25,6 +27,8 @@ devcontainer up --workspace-folder ./
 devcontainer exec --workspace-folder ./ fish
 ```
 
+![Up DevContainer](image/start-devcontainer.jpg)
+
 ## Dev
 
 ```bash
@@ -48,6 +52,16 @@ async def  root():
 ```bash
 uvicorn main:app --host=0.0.0.0
 ```
+
+## Open API
+
+```
+curl http://localhost:8000
+```
+
+Or open with web browser
+
+![Open From Host](image/open-with-web-browser.jpg)
 
 ## Install packages
 
