@@ -1,0 +1,15 @@
+{
+  "name": "Dev Container EP4",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "fastapi",
+  "containerUser": "fastapi",
+  "workspaceFolder": "/workspace/fastapi",
+  "init": true,
+  "updateRemoteUserUID": true,
+  "customizations": {},
+  "features": {
+    // "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
+  }
+}

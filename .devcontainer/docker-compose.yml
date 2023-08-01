@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  fastapi:
+    build:
+      context: ../.devcontainer
+      dockerfile: Dockerfile
+    hostname: fastapi
+    volumes:
+      - ../:/workspace/fastapi:cached
+    init: true
+    ports:
+      - "8000:8000"
+    command: [ 'sleep', 'infinity' ]
+
+networks:
+  default:
+    name: fastapi

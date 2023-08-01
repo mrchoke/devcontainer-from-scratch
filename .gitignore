@@ -1,0 +1,15 @@
+*.swp
+__pycache__
+.env
+env
+venv
+.venv
+.idea
+.vscode
+*.egg-info
+*.egg
+*.log
+*.pot
+*.pyc
+*.pyo
+*.manifest
